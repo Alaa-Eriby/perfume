@@ -1,0 +1,51 @@
+#Detailsdiv{
+    width: 50%;
+    background-color: aliceblue;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+
+}
+#tittle{
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+    size: 20px;
+}
+#pricediv{
+    width: 100%;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+ 
+#discauntprice{
+    font: size 12px; ;
+    color: hsl(228, 12%, 48%);
+}
+#header{
+    margin: 0;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+#description{
+    margin: 0;
+}
+#pricelebel{
+    font-size: 30px;
+    font-weight: 900;
+    color:  hsl(158,36%,37%);
+}
+
+#cartbtn{
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(158,36%,37%);
+    color: white;
+    font-weight: 500;
+}
